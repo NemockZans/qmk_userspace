@@ -1,6 +1,6 @@
 {
     "keyboard": "crkbd/rev1",
-    "converter": "helios",
+    "converter": "elite_pi",
     "config": {
         "features": {
             "oled": true,
