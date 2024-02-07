@@ -54,13 +54,13 @@ jobs:
 
   release:
     needs: build
-    uses: filterpaper/scripts/.github/workflows/publish-artifact.yml@main
+    uses: nemockzans/scripts/.github/workflows/publish-artifact.yml@main
     with:
       release_name: Firmware
       release_tag: latest
 
   purge:
-    uses: filterpaper/scripts/.github/workflows/purge-workflow.yml@main
+    uses: nemockzans/scripts/.github/workflows/purge-workflow.yml@main
     with:
       purge-age: 5
       delete-all-completed: false

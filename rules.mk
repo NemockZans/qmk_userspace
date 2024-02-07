@@ -11,7 +11,7 @@ SWAP_HANDS_ENABLE = yes
 
 MAKECMDGOALS = uf2-split-$(SPLIT)
 VPATH += $(USER_PATH)/features
-INTROSPECTION_KEYMAP_C = filterpaper.c
+INTROSPECTION_KEYMAP_C = nemockzans.c
 SRC += autocorrect.c
 
 ifeq ($(strip $(RGB_MATRIX_ENABLE)), yes)
