@@ -1,7 +1,7 @@
 // Copyright @filterpaper
 // SPDX-License-Identifier: GPL-2.0+
 
-#include "nemockzans.h"
+#include "NemockZans.h"
 
 static uint16_t        next_keycode;
 static keyrecord_t     next_record;

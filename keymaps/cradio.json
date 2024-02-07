@@ -1,7 +1,7 @@
 {
     "keyboard": "cradio",
     "converter": "helios",
-    "keymap": "nemockzans",
+    "keymap": "NemockZans",
     "layout": "LAYOUT_34key_w",
     "layers": [
         [ "HRM(_BASE)" ],
